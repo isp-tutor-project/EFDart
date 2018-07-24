@@ -1,0 +1,13 @@
+I would install the Dart SDK (http://www.dartlang.org/tools/sdk/) which is just the command-line tools.
+
+Then, for your app, use this command to create a single .dart file that contains everything you need for the app.
+
+dart2js --output-type=dart --categories=Server --minify -oapp.complete.dart app.dart
+
+This is the fabled "dart2dart" which takes a Dart app, tree shakes it, minifies it, and generates a single .dart file ready to go.
+This is nice because it pulls in dependencies like 3rd party libraries (and tree shakes it to eliminate the unused parts)
+so you don't need to run 'pub install' on the target machine.
+
+https://code.google.com/p/dart/issues/detail?id=8174
+
+Note - you cannot run this in a path containing spaces.

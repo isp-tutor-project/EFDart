@@ -1,0 +1,6 @@
+name: WebSocket
+description: A sample command-line application
+dependencies:
+  crypto: any
+  http_server: any
+  route: any

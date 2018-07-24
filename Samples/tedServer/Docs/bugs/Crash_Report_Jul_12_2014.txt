@@ -1,0 +1,51 @@
+Observatory listening on http://127.0.0.1:59130
+Copyright 2013 - Carnegie Mellon University All Rights Reserved.
+TED serverMonitorIsolateEntry: monitor isolate Entry
+Monitor Isolate : Starting
+serverMonitorIsolate says: server created successfully on 0.0.0.0 port:12003
+in ShutdownIsolate: Unhandled exception:
+type 'OSError' is not a subtype of type 'List' of 'function result'.
+#0      _rootHandleUncaughtError.<anonymous closure>.<anonymous closure> (dart:async/zone.dart:713)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#3      _asyncRunCallback (dart:async/schedule_microtask.dart:36)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+
+Uncaught Error: type 'OSError' is not a subtype of type 'List' of 'function result'.
+Stack Trace: 
+#0      _NativeSocket.nativeGetRemotePeer (dart:io-patch/socket_patch.dart:1099)
+#1      _NativeSocket.remoteAddress (dart:io-patch/socket_patch.dart:644)
+#2      _RawSocket.remoteAddress (dart:io-patch/socket_patch.dart:1346)
+#3      _Socket.remoteAddress (dart:io-patch/socket_patch.dart:1641)
+#4      errorManager (file:///C:/Users/kabel/Documents/Projects/Dart/Samples/tedServer/bin/io/socketWorker.dart:88:77)
+#5      _rootRunUnary (dart:async/zone.dart:730)
+#6      _RootZone.runUnary (dart:async/zone.dart:864)
+#7      _BaseZone.runUnaryGuarded (dart:async/zone.dart:582)
+#8      _BufferingStreamSubscription._sendError.sendError (dart:async/stream_impl.dart:355)
+#9      _BufferingStreamSubscription._sendError (dart:async/stream_impl.dart:369)
+#10     _BufferingStreamSubscription._addError (dart:async/stream_impl.dart:272)
+#11     _StreamController&&_SyncStreamControllerDispatch._sendError (dart:async/stream_controller.dart:573)
+#12     _StreamController._addError (dart:async/stream_controller.dart:457)
+#13     _StreamController.addError (dart:async/stream_controller.dart:414)
+#14     _onError (dart:io-patch/socket_patch.dart:1721)
+#15     _rootRunBinary (dart:async/zone.dart:742)
+#16     _RootZone.runBinary (dart:async/zone.dart:867)
+#17     _BaseZone.runBinaryGuarded (dart:async/zone.dart:590)
+#18     _BufferingStreamSubscription._sendError.sendError (dart:async/stream_impl.dart:353)
+#19     _BufferingStreamSubscription._sendError (dart:async/stream_impl.dart:366)
+#20     _BufferingStreamSubscription._addError (dart:async/stream_impl.dart:272)
+#21     _StreamController&&_SyncStreamControllerDispatch._sendError (dart:async/stream_controller.dart:573)
+#22     _StreamController._addError (dart:async/stream_controller.dart:457)
+#23     _StreamController.addError (dart:async/stream_controller.dart:414)
+#24     _RawSocket._RawSocket.<anonymous closure> (dart:io-patch/socket_patch.dart:1281)
+#25     _rootRunUnary (dart:async/zone.dart:730)
+#26     _RootZone.runUnary (dart:async/zone.dart:864)
+#27     _BaseZone.runUnaryGuarded (dart:async/zone.dart:582)
+#28     _BaseZone.bindUnaryCallback.<anonymous closure> (dart:async/zone.dart:608)
+#29     _NativeSocket.reportError (dart:io-patch/socket_patch.dart:901)
+#30     _NativeSocket.write.<anonymous closure> (dart:io-patch/socket_patch.dart:580)
+#31     _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#32     _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#33     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+
+

@@ -1,0 +1,12 @@
+ 
+ To transfer the database from one machine to another:
+ 
+ 1.  Stop the TED server on the HOST
+ 2.  Open the inbound firewall exception - TCP - Local Port 27017  Scope Any
+ 3.  On the target machine execute: db.dropDatabase(); from within the TED database
+ 4.  On the target machine execute: db.copyDatabase("TED","TED","128.2.76.233");  - where 128.2.76.233 is the IP of the active TED server machine
+ 5.  Close the firewall
+ 6.  restart the TED service
+ 
+ 
+  db.copyDatabase("TED_HUSTON","TED_HUSTON","128.2.75.49);

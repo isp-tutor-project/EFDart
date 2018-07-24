@@ -1,0 +1,6 @@
+name: tedServer
+description: A sample command-line application
+dependencies:
+  crypto: any
+  mailer: any
+  mongo_dart: any

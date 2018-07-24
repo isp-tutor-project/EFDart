@@ -1,0 +1,6 @@
+name: sample_pubspec
+description: A sample application
+dependencies:
+  crypto: any
+  mailer: any
+  mongo_dart: any

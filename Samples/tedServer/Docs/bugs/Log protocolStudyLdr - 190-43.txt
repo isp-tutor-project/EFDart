@@ -1,0 +1,34 @@
+Copyright 2013 - Carnegie Mellon University All Rights Reserved.
+TED serverMonitorIsolateEntry: monitor isolate Entry
+Monitor Isolate says: start
+Uncaught Error: The null object does not have a method '[]'.
+
+NoSuchMethodError : method not found: '[]'
+Receiver: null
+Arguments: ["progress"]
+Stack Trace: 
+#0      Object.noSuchMethod (dart:core-patch/object_patch.dart:45)
+#1      buildLoader (file:///C:/Users/kabel/Documents/Projects/Dart/Samples/tedServer/bin/io/protocolStudyLdr.dart:190:43)
+#2      _rootRunUnary (dart:async/zone.dart:717)
+#3      _RootZone.runUnary (dart:async/zone.dart:854)
+#4      _Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:439)
+#5      _Future._propagateToListeners (dart:async/future_impl.dart:522)
+#6      _Future._complete (dart:async/future_impl.dart:303)
+#7      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:354)
+#8      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#9      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#10     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:119)
+
+
+in ShutdownIsolate: Unhandled exception:
+The null object does not have a method '[]'.
+
+NoSuchMethodError : method not found: '[]'
+Receiver: null
+Arguments: ["progress"]
+#0      _rootHandleUncaughtError.<anonymous closure>.<anonymous closure> (dart:async/zone.dart:700)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#3      _asyncRunCallback (dart:async/schedule_microtask.dart:36)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:119)
+

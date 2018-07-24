@@ -1,0 +1,1 @@
+dartdoc --mode=static --link-api --out=../../mongo_dart_docs/stage mongo_dart_lib_for_dartdoc.dart

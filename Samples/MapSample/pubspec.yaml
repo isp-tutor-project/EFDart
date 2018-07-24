@@ -1,0 +1,4 @@
+name: MapSample
+description: A sample web application
+dependencies:
+  browser: any

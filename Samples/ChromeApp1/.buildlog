@@ -1,0 +1,373 @@
+---
+build.dart --machine --full
+dart2js --disallow-unsafe-eval web\background.dart
+dart2js --disallow-unsafe-eval web\chromeapp1.dart
+build.dart finished [8071 ms]
+
+---
+build.dart --machine --changed=web\background.dart.js --changed=web\background.dart.js.deps --changed=web\backg...
+
+build.dart finished [48 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [248 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [83 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [495 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [561 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [975 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [118 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [204 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [198 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [74 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [87 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [221 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [310 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [146 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [142 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [392 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [199 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [390 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [315 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [490 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects%20Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects%20Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:214)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:122)
+build.dart finished [142 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects%20Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects%20Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:214)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:122)
+build.dart finished [262 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects%20Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects%20Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:214)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:122)
+build.dart finished [103 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [258 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [112 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects%20Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects%20Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:214)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:122)
+build.dart finished [174 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [195 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [426 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///C:/Users/Kevin/Documents/Projects Dart/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:216)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:124)
+build.dart finished [222 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///E:/dart_dev/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///E:/dart_dev/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate (dart:isolate-patch/isolate_patch.dart:239)
+#2      _startMainIsolate.<anonymous closure> (dart:isolate-patch/isolate_patch.dart:192)
+#3      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:130)
+build.dart finished [95 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///E:/dart_dev/Samples/ChromeApp1/build.dart': malformed type: line 16 pos 18: type 'Options' is not loaded
+  var args = new Options().arguments;
+                 ^
+type error.
+#0      main (file:///E:/dart_dev/Samples/ChromeApp1/build.dart:16:18)
+#1      _startIsolate (dart:isolate-patch/isolate_patch.dart:239)
+#2      _startMainIsolate.<anonymous closure> (dart:isolate-patch/isolate_patch.dart:192)
+#3      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:130)
+build.dart finished [244 ms]
+

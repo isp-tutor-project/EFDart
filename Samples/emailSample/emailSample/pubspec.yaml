@@ -1,0 +1,4 @@
+name: emailSample
+description: A sample command-line application
+dependencies:
+  mailer: any
